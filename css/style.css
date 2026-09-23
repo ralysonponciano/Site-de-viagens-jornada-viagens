@@ -1,2 +1,36 @@
+
 @import url("/css/global.css");
 @import url("/css/header.css");
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  /* variaveis de cores de fundo */
+  --background-main-color: #ffffff;
+  --background-card-color: #f5f5f5;
+  --background-black-color: #000000;
+  --background-button-color: #b81515;
+  --background-button-hover-color: #8f0101;
+  /* variaveis de cores de texto */
+  --text-primary-graphite-color: #222222;
+  --text-secundary-white-color: #ffffff;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+h1 {
+  font-family: "montserrat", sans-serif;
+  font-weight: var(--title-weight);
+  color: var(--text-primary-graphite-color);
+}
