@@ -1,12 +1,21 @@
 header{
-    width:100%;
-    height: 138px;
     background-color: var(--background-black-color);
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between; 
+    align-items: flex-start;
+    padding: 38px 48px;
 }
 .logo_bussula{
     display: inline-block;
     width: 68px;
     height: 64px;
-    margin:37px 0 0px 48px;
+   
 }
 
+nav{
+    display: none;
+}
+.container-menu{
+    margin-top: 24px;
+}
