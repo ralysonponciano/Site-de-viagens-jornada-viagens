@@ -1,1 +1,14 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; }  
+
+:root{
+    /* variaveis de cores de fundo */
+    --background-main-color:#FFFFFF;
+    --background-card-color:#F5F5F5;
+    --background-black-color:#000000;
+    --background-button-color:#B81515;
+    --background-button-hover-color:#8F0101;
+    /* variaveis de cores de texto */
+    --text-primary-graphite-color: #222222;
+    --text-secundary-white-color: #FFFFFF;
+    
+}
