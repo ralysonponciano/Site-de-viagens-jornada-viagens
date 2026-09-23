@@ -7,13 +7,19 @@ header{
     padding: 38px 48px;
     position: relative;
 }
-.logo_bussula{
+.logo{
     display: inline-block;
     width: 68px;
     height: 64px;
    
 }
 
+.img_mobile{
+    display: block;
+}
+.img_desktop{
+    display: none;
+}
 input[type="checkbox"]:checked~nav{
     display: block;
     position: absolute;
@@ -49,7 +55,7 @@ nav{
 @media screen and ( min-width: 768px){
     .container-menu{
         margin-top: 0;
-        width: ;
+        
     }
     .container-menu label{
         display: none;
@@ -70,3 +76,31 @@ nav{
     }
 }
     
+@media screen and ( min-width: 1024px){
+    header{
+        padding: 38px 120px;
+
+    }
+    
+    .logo{
+        width: 260px;
+        height: 64px;
+    }
+    
+    .img_desktop {
+        display: block;
+    }
+    .img_mobile {
+        display: none;
+    }
+    .container-menu a:hover{
+        color:var(--background-button-hover-color)
+    } 
+}
+@media screen and (min-width: 1920px) {
+    header{
+        padding:38px 160px ;
+    }
+
+    
+}
