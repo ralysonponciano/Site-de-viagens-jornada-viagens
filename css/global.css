@@ -25,4 +25,21 @@
 }
 
 body{
-    font-family: "Montserrat"}
+    font-family: "Montserrat";
+    color: var(--text-primary-graphite-color);}
+
+.section_title h2{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    margin: 0;
+    text-align: center;
+   
+}
+.section_title hr{
+    width: 180px;
+    height: 4px;
+    background-color: var(--background-button-hover-color);
+    border: none;
+    margin: 16px auto 32px;
+
+}
