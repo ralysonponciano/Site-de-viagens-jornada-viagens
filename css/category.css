@@ -1,0 +1,43 @@
+
+.container_category{
+    display: flex;
+    justify-content: center
+}
+
+.card_category{
+    
+    width: 281px;
+    height: 220px;
+    background-color: var(--background-card-color);
+    border-radius: 16px;
+    
+    
+    
+    
+
+
+}
+.card_category a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    text-decoration:none;
+    color: var(--text-primary-graphite-color) ;
+    font-weight: var(--title-weight);   
+   font-size: 28px;
+   margin-bottom: 16px;
+    
+}
+
+
+.card_category img{
+    width: 80px;
+    height: 80px;
+    
+
+    
+}

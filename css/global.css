@@ -10,7 +10,8 @@
 .container-principal{
     
     max-width: 100vw; 
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background-color: var(--background-main-color); 
 }
 :root{
     /* variaveis de cores de fundo */
