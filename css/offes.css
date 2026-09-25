@@ -1,4 +1,11 @@
 
+.offers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:24px;
+    
+}
 .section_card{
     color: var(--text-secundary-white-color);
     width: 312px;
@@ -14,8 +21,9 @@
     
     display: block;
     position: static;
-   padding: 0;
+    padding: 0;
    margin-bottom: 24px;
+   background: transparent;
 
 }
 .section_card header p{
@@ -35,6 +43,25 @@
     display: inline-block;
 }
 
+.japao{
+    background: url(/img/card_japao.jpg)no-repeat;
+    background-size: cover;
+
+}
+
+.san_andreas{
+    background: url(/img/Card_sanandreas.png)no-repeat;
+    background-size: cover;
+}
+.paraiba{
+    background: url(/img/Card_paraiba.png)no-repeat;
+    background-size: cover;
+}
+.manaus{
+    background: url(/img/Card_manaus.png)no-repeat;
+    background-size: cover;
+}
+
 @media screen  and  (min-width: 1024px){
     .card{
         width: 588px;
@@ -50,4 +77,10 @@
 }
     
 }
+ @media  screen and(min-width: 768px) {
+
+    .offers{
+        flex-direction: row;
+    }
     
+ }   

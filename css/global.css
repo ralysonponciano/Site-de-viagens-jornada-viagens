@@ -7,6 +7,11 @@
     font-display: swap;
 
 }
+.container-principal{
+    
+    max-width: 100vw; 
+    overflow-x: hidden; 
+}
 :root{
     /* variaveis de cores de fundo */
     --background-main-color:#FFFFFF;
@@ -23,10 +28,14 @@
     --menu-text-weight: 500;
     
 }
-
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 body{
     font-family: "Montserrat";
-    color: var(--text-primary-graphite-color);}
+    color: var(--text-primary-graphite-color);
+}
 
 .section_title h2{
     font-size: 28px;
