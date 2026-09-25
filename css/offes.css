@@ -1,5 +1,5 @@
 
-.offers{
+.container_offers{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +62,7 @@
     background-size: cover;
 }
 
-@media screen  and  (min-width: 1024px){
+@media screen  and (min-width: 1024px){
     .card{
         width: 588px;
         height: 308px;
@@ -77,10 +77,12 @@
 }
     
 }
- @media  screen and(min-width: 768px) {
+ @media screen and (min-width: 768px) {
 
-    .offers{
+    .container_offers{
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
  }   
