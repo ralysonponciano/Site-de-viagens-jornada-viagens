@@ -7,10 +7,17 @@
     font-display: swap;
 
 }
+.container-principal{
+    
+    max-width: 100vw; 
+    overflow-x: hidden;
+    background-color: var(--background-main-color); 
+}
 :root{
     /* variaveis de cores de fundo */
     --background-main-color:#FFFFFF;
     --background-card-color:#F5F5F5;
+    --background-card-hover-color:#8C8C8C;
     --background-black-color:#000000;
     --background-button-color:#B81515;
     --background-button-hover-color:#8F0101;
@@ -23,6 +30,56 @@
     --menu-text-weight: 500;
     
 }
-
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
 body{
-    font-family: "Montserrat"}
+    font-family: "Montserrat";
+    color: var(--text-primary-graphite-color);
+}
+
+.section_title h2{
+    font-size: 28px;
+    font-weight: var(--title-weight);
+    margin: 0;
+    text-align: center;
+   
+}
+.section_title hr{
+    width: 180px;
+    height: 4px;
+    background-color: var(--background-button-hover-color);
+    border: none;
+    margin: 16px auto 32px;
+
+}
+
+.button_detalhes{
+ width: 280px;
+ height: 64px;
+ color: var(--text-secundary-white-color);
+ font-weight: var(--title-weight);
+ font-size: 20px;
+ background-color: var(--background-button-color);   
+ border-radius: 16px;
+ display: inline-block;
+ text-decoration: none;
+ line-height: 64px;
+}
+
+
+@media screen and (min-width:780px) {
+    .section_title h2{
+        font-size:32px;
+    }
+    
+}
+
+
+@media screen and (min-width:1024px) {
+    .button_detalhes:hover{
+        background-color: var(--background-button-hover-color);
+    }
+    
+}
