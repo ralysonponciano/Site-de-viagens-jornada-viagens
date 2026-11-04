@@ -1,0 +1,54 @@
+.container_text_payments {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.container_payments {
+    margin-left: 24px;
+    margin-right: 24px;
+    line-height: 32px;
+    display: grid;
+    grid-template-columns: repeat 1fr 1fr ; 
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px; 
+    grid-template-areas: 
+        'bag passaport'
+        'personal personal';
+
+
+}
+
+
+.image_payments_bag{
+    grid-area: bag;
+    background: url(/img/bag_mobile.jpg)repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+}
+.image_payments_passaport{
+    grid-area: passaport;
+    background: url(/img/passapor_mobile.jpg)repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 254px;
+}
+
+.image_payments_personal{
+    grid-area: personal;
+    background: url(/img/personal_mobile.jpg) repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 182px;
+}
+
+@media screen and (min-width: 768px) {
+    .image_payments_personal{
+    grid-area: personal;
+    background: url(/img/personal_tablet.jpg) repeat center center;
+    background-size: cover;
+   
+    
+    
+}
+}
